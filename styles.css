@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	background-image: url("img/skull.gif");
+}
+
+.content {
+	width:       256px;
+	height:      128px;
+	position:    absolute;
+	top:         0px;
+	bottom:      0px;
+	left:        0px;
+	right:       0px;
+	margin:      auto;
+	text-align:  center;
+	line-height: 32px;
+}
+
+.content h1 {
+	margin-top:    0px;
+	margin-bottom: 0px;
+	margin-left:   0px;
+	margin-right:  0px;
+	text-shadow:   #ff7800 0px 0px 10px;
+	
+	position:  absolute;
+	top:       50%;
+	left:      50%;
+	transform: translate(-50%, -50%);
+}
+
+footer {
+	position:   fixed;
+	left:       0px;
+	bottom:     0px;
+	width:      100%;
+	text-align: center;
+}
